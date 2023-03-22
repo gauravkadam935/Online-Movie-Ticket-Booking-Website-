@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(48, 46, 46);
+}
+nav{
+    background-color: black;
+}
+#back{
+    background-color: orange;
+    
+}
+.head{
+    margin-bottom: 2%;
+    text-align: center;
+    color: white;
+}
+.head-tag{
+    color: orange;
+}
+.fullpage{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    color: orange;
+    padding: 1%;
+}
+.left-side2{
+    width: 31%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 4px 15px white;
+    border-radius: 5px;
+}
+.summary{
+    width: 98%;
+    align-items: center;
+    vertical-align: middle;
+    
+}
+.input{
+    margin-left: 2%;
+    width: 80%;
+    height: 25px;
+    background-color: rgb(27, 25, 25);
+    color: white;
+    border: none;
+}
+label{
+    font-size: larger;
+}
+.mov-title{
+
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.num-tickets{
+}
+
+.final-price{
+    display: flex;
+}
+
+.right-side2{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 4px 15px white;
+    border-radius: 5px;
+}
+.payment{
+    
+    width: 90%
+   
+}
+.personal-info{
+
+}
+.select-option{
+
+}
+.card-info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+}
+.button{
+    text-align: center;
+    margin-bottom: 2%;
+}

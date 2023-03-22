@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+    <title>CheakOut Page</title>
+</head>
+
+<body>
+    <nav>
+    <a href="index.html"><button class="btn btn-info" id="back">Back</button></a>
+    </nav>
+    <div class="head">
+        <h1 class="head-tag">CheckOut</h1>
+    </div>
+    <div class="fullpage">
+        <div class="left-side2">
+            <div class="summary" id="summary">
+                <h3 class="head">Summary</h3>
+                <h4 class="mov-title"></h4>
+                <div class="price">
+                    <P class="tickit-price">Classic Ticket</P>
+                    <p class="tickit"></p>
+                </div>
+                <div class="num-tickets">
+                    <label for="input">Number of Tickets</label>
+                    <input type="number" id="input" class="input" value="1" required>
+                </div>
+                <div class="price">
+                    <P class="tickit-price">Convenience Fee (1.75%)</P>
+                    <p class="convinience-price"></p>
+                </div>
+                <div class="price">
+                    <p>Sub Total</p>
+                    <p class="total-fee"></p>
+                </div>
+            </div>
+        </div>
+        <div class="right-side2">
+            <div class="payment">
+                <h3 class="head">Payment</h3>
+                <div class="personal-info">
+                    <label for="name">First Name</label>
+                    <input type="text" id="name" class="input" required>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" class="input" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="input" required>
+                </div>
+                <div class="select-option">
+                    <input type="radio" id="credit" class="credit">
+                    <label for="credit">Credit Card</label>
+                    <input type="radio" id="debit" class="debit">
+                    <label for="debit">Debit Card</label>
+                    <input type="radio" id="upi" class="upi">
+                    <label for="upi">UPI</label>
+                </div>
+                <div class="card-info">
+                    <label for="name">Name On Card</label>
+                    <input type="text" id="card-name" class="input" placeholder="Full Name As Display On Card"
+                        required></br>
+                    <label for="name">Credit Card Number</label>
+                    <input type="number" id="card-number" class="input" required>
+                    <label for="expiry">Expiration</label>
+                    <input type="number" id="expiry" class="input" required>
+                    <label for="cvv">CVV</label>
+                    <input type="number" id="cvv" class="input" required>
+                </div>
+                <div class="button">
+                    <button class="btn btn-primary" onclick="">Proceed To Pay</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script2.js"></script>
+</body>
+
+</html>
