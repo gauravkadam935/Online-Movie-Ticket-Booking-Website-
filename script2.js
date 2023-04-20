@@ -5,7 +5,7 @@ const selectMovieName = document.querySelector(".mov-title");
     const convinienceFee = document.querySelector(".convinience-price");
     const totalFee = document.querySelector(".total-fee");
 
-
+// adding event listner 
 window.addEventListener("load",()=>{
     addinfo(localStorage.getItem("price"),localStorage.getItem("title"));
     let tickets = document.querySelector("#input");

@@ -63,9 +63,6 @@ label{
     justify-content: space-between;
 
 }
-.num-tickets{
-}
-
 .final-price{
     display: flex;
 }
@@ -80,13 +77,6 @@ label{
 .payment{
     
     width: 90%
-   
-}
-.personal-info{
-
-}
-.select-option{
-
 }
 .card-info{
     display: flex;

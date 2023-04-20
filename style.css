@@ -126,9 +126,6 @@ body{
     margin: 0 20px;
 
 }
-.rate{
-    
-}
 .green{
     color: green;
 }
@@ -147,8 +144,6 @@ body{
 .movie-name{
     padding: 20px;
 }
-
-
 /* model popup css */
 .mymodel{
     /* display: none; */
