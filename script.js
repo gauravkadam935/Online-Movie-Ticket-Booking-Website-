@@ -124,10 +124,10 @@ function showcase(data) {
     // here we creating movie card
     const movieEl = document.createElement('div');
     // adding class name
-    movieEl.classList.add('movie');
+    movieEl.classList.add('card');
     // adding movie info(image,rating,language,title)
     movieEl.innerHTML = `
-            <div class="card">
+            
                 <div class="image">
                     <img src="${IMG_URL + poster_path}" class="card-img-top" alt="${title}">
                 </div>
@@ -138,7 +138,7 @@ function showcase(data) {
                 <div class="movie-title">
                     <h3 class="movie-name">${title}</h3>
                 </div>
-            </div>
+            
             `
     // here we adding event listner to movie element after clicking on movie card
     movieEl.addEventListener('click', () => {
